@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import { AppProvider } from '@edx/frontend-platform/react';
 
+import { getConfig } from '@edx/frontend-platform';
 import Footer from '@edx/frontend-component-footer';
 import Header from '@edx/frontend-component-header';
 
@@ -25,7 +26,7 @@ const App = () => (
             />
           </Switch>
         </main>
-        <Footer logo={process.env.LOGO_POWERED_BY_OPEN_EDX_URL_SVG} />
+        <Footer logo={getConfig().LOGO_POWERED_BY_OPEN_EDX_URL_SVG} />
       </div>
     </Router>
   </AppProvider>
