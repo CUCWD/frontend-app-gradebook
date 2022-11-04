@@ -28,9 +28,9 @@
   },
   "dependencies": {
     "@edx/brand": "npm:@edx/brand-edx.org@^1.3.2",
-    "@edx/frontend-component-footer": "npm:@cucwd-prod/frontend-component-footer@10.1.6-maple.3.1",
-    "@edx/frontend-component-header": "npm:@cucwd-prod/frontend-component-header@2.4.3-maple.3",
-    "@edx/frontend-platform": "npm:@cucwd-prod/frontend-platform@1.14.4-maple.3",
+    "@edx/frontend-component-footer": "npm:@cucwd-prod/frontend-component-footer@10.1.6-maple.3.2-no-cache",
+    "@edx/frontend-component-header": "npm:@cucwd-prod/frontend-component-header@2.4.3-maple.3.2-no-cache",
+    "@edx/frontend-platform": "npm:@cucwd-prod/frontend-platform@1.14.4-maple.3.1-no-cache",
     "@edx/paragon": "14.16.4",
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
