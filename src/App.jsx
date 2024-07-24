@@ -7,7 +7,6 @@ import { getConfig } from '@edx/frontend-platform';
 import Footer from '@edx/frontend-component-footer';
 import Header from '@edx/frontend-component-header';
 
-import { routePath } from 'data/constants/app';
 import store from 'data/store';
 import GradebookPage from 'containers/GradebookPage';
 import './App.scss';
@@ -20,8 +19,7 @@ const App = () => (
         <main>
           <Switch>
             <Route
-              exact
-              path={routePath}
+              path="/:courseId"
               component={GradebookPage}
             />
           </Switch>
